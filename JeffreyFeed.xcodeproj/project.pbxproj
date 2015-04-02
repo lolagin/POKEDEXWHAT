@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D04B9E61AC4D0B300F41859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9E51AC4D0B300F41859 /* main.m */; };
+		6D04B9E91AC4D0B300F41859 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9E81AC4D0B300F41859 /* AppDelegate.m */; };
+		6D04B9F11AC4D0B300F41859 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D04B9F01AC4D0B300F41859 /* Images.xcassets */; };
+		6D04B9F41AC4D0B300F41859 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D04B9F21AC4D0B300F41859 /* LaunchScreen.xib */; };
+		6D04BA001AC4D0B300F41859 /* JeffreyFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04B9FF1AC4D0B300F41859 /* JeffreyFeedTests.m */; };
+		6D04BA0B1AC4D4CA00F41859 /* JasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D04BA0A1AC4D4CA00F41859 /* JasonViewController.m */; };
+		6D1D97671ACCD0B700CBCAB7 /* pokeback.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D1D97661ACCD0B700CBCAB7 /* pokeback.png */; };
+		6D1D976A1ACCD58200CBCAB7 /* WebOfPokeDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D97691ACCD58200CBCAB7 /* WebOfPokeDetailsVC.m */; };
+		6D1D976E1ACCD9AC00CBCAB7 /* PokeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1D976C1ACCD9AC00CBCAB7 /* PokeDetailsViewController.m */; };
+		6D1D976F1ACCD9AC00CBCAB7 /* PokeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D1D976D1ACCD9AC00CBCAB7 /* PokeDetailsViewController.xib */; };
+		6D1D97711ACCEE4300CBCAB7 /* pokemonloadiphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D1D97701ACCEE4300CBCAB7 /* pokemonloadiphone.png */; };
+		6D9F6EB01AC4E8F200C4C50D /* PokeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F6EAF1AC4E8F200C4C50D /* PokeStore.m */; };
+		6D9F6EB31AC4E98E00C4C50D /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F6EB21AC4E98E00C4C50D /* Pokemon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D04B9FA1AC4D0B300F41859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D04B9D81AC4D0B300F41859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D04B9DF1AC4D0B300F41859;
+			remoteInfo = JeffreyFeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D04B9E01AC4D0B300F41859 /* JeffreyFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeffreyFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D04B9E41AC4D0B300F41859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D04B9E51AC4D0B300F41859 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D04B9E71AC4D0B300F41859 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D04B9E81AC4D0B300F41859 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D04B9F01AC4D0B300F41859 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D04B9F31AC4D0B300F41859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6D04B9F91AC4D0B300F41859 /* JeffreyFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeffreyFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D04B9FE1AC4D0B300F41859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D04B9FF1AC4D0B300F41859 /* JeffreyFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeffreyFeedTests.m; sourceTree = "<group>"; };
+		6D04BA091AC4D4CA00F41859 /* JasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JasonViewController.h; sourceTree = "<group>"; };
+		6D04BA0A1AC4D4CA00F41859 /* JasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasonViewController.m; sourceTree = "<group>"; };
+		6D1D97661ACCD0B700CBCAB7 /* pokeback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokeback.png; sourceTree = "<group>"; };
+		6D1D97681ACCD58200CBCAB7 /* WebOfPokeDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebOfPokeDetailsVC.h; sourceTree = "<group>"; };
+		6D1D97691ACCD58200CBCAB7 /* WebOfPokeDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebOfPokeDetailsVC.m; sourceTree = "<group>"; };
+		6D1D976B1ACCD9AC00CBCAB7 /* PokeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokeDetailsViewController.h; sourceTree = "<group>"; };
+		6D1D976C1ACCD9AC00CBCAB7 /* PokeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokeDetailsViewController.m; sourceTree = "<group>"; };
+		6D1D976D1ACCD9AC00CBCAB7 /* PokeDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PokeDetailsViewController.xib; sourceTree = "<group>"; };
+		6D1D97701ACCEE4300CBCAB7 /* pokemonloadiphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemonloadiphone.png; sourceTree = "<group>"; };
+		6D9F6EAE1AC4E8F200C4C50D /* PokeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokeStore.h; sourceTree = "<group>"; };
+		6D9F6EAF1AC4E8F200C4C50D /* PokeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokeStore.m; sourceTree = "<group>"; };
+		6D9F6EB11AC4E98E00C4C50D /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		6D9F6EB21AC4E98E00C4C50D /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D04B9DD1AC4D0B300F41859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D04B9F61AC4D0B300F41859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D04B9D71AC4D0B300F41859 = {
+			isa = PBXGroup;
+			children = (
+				6D04B9E21AC4D0B300F41859 /* JeffreyFeed */,
+				6D04B9FC1AC4D0B300F41859 /* JeffreyFeedTests */,
+				6D04B9E11AC4D0B300F41859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D04B9E11AC4D0B300F41859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D04B9E01AC4D0B300F41859 /* JeffreyFeed.app */,
+				6D04B9F91AC4D0B300F41859 /* JeffreyFeedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D04B9E21AC4D0B300F41859 /* JeffreyFeed */ = {
+			isa = PBXGroup;
+			children = (
+				6D04B9E71AC4D0B300F41859 /* AppDelegate.h */,
+				6D04B9E81AC4D0B300F41859 /* AppDelegate.m */,
+				6D9F6EB11AC4E98E00C4C50D /* Pokemon.h */,
+				6D9F6EB21AC4E98E00C4C50D /* Pokemon.m */,
+				6D9F6EAE1AC4E8F200C4C50D /* PokeStore.h */,
+				6D9F6EAF1AC4E8F200C4C50D /* PokeStore.m */,
+				6D04BA091AC4D4CA00F41859 /* JasonViewController.h */,
+				6D04BA0A1AC4D4CA00F41859 /* JasonViewController.m */,
+				6D1D976B1ACCD9AC00CBCAB7 /* PokeDetailsViewController.h */,
+				6D1D976C1ACCD9AC00CBCAB7 /* PokeDetailsViewController.m */,
+				6D1D976D1ACCD9AC00CBCAB7 /* PokeDetailsViewController.xib */,
+				6D1D97681ACCD58200CBCAB7 /* WebOfPokeDetailsVC.h */,
+				6D1D97691ACCD58200CBCAB7 /* WebOfPokeDetailsVC.m */,
+				6D04B9F01AC4D0B300F41859 /* Images.xcassets */,
+				6D04B9F21AC4D0B300F41859 /* LaunchScreen.xib */,
+				6D04B9E31AC4D0B300F41859 /* Supporting Files */,
+			);
+			path = JeffreyFeed;
+			sourceTree = "<group>";
+		};
+		6D04B9E31AC4D0B300F41859 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1D97661ACCD0B700CBCAB7 /* pokeback.png */,
+				6D1D97701ACCEE4300CBCAB7 /* pokemonloadiphone.png */,
+				6D04B9E41AC4D0B300F41859 /* Info.plist */,
+				6D04B9E51AC4D0B300F41859 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D04B9FC1AC4D0B300F41859 /* JeffreyFeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D04B9FF1AC4D0B300F41859 /* JeffreyFeedTests.m */,
+				6D04B9FD1AC4D0B300F41859 /* Supporting Files */,
+			);
+			path = JeffreyFeedTests;
+			sourceTree = "<group>";
+		};
+		6D04B9FD1AC4D0B300F41859 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D04B9FE1AC4D0B300F41859 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D04B9DF1AC4D0B300F41859 /* JeffreyFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D04BA031AC4D0B300F41859 /* Build configuration list for PBXNativeTarget "JeffreyFeed" */;
+			buildPhases = (
+				6D04B9DC1AC4D0B300F41859 /* Sources */,
+				6D04B9DD1AC4D0B300F41859 /* Frameworks */,
+				6D04B9DE1AC4D0B300F41859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JeffreyFeed;
+			productName = JeffreyFeed;
+			productReference = 6D04B9E01AC4D0B300F41859 /* JeffreyFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D04B9F81AC4D0B300F41859 /* JeffreyFeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D04BA061AC4D0B300F41859 /* Build configuration list for PBXNativeTarget "JeffreyFeedTests" */;
+			buildPhases = (
+				6D04B9F51AC4D0B300F41859 /* Sources */,
+				6D04B9F61AC4D0B300F41859 /* Frameworks */,
+				6D04B9F71AC4D0B300F41859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D04B9FB1AC4D0B300F41859 /* PBXTargetDependency */,
+			);
+			name = JeffreyFeedTests;
+			productName = JeffreyFeedTests;
+			productReference = 6D04B9F91AC4D0B300F41859 /* JeffreyFeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D04B9D81AC4D0B300F41859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Jeffreycorp;
+				TargetAttributes = {
+					6D04B9DF1AC4D0B300F41859 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6D04B9F81AC4D0B300F41859 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6D04B9DF1AC4D0B300F41859;
+					};
+				};
+			};
+			buildConfigurationList = 6D04B9DB1AC4D0B300F41859 /* Build configuration list for PBXProject "JeffreyFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D04B9D71AC4D0B300F41859;
+			productRefGroup = 6D04B9E11AC4D0B300F41859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D04B9DF1AC4D0B300F41859 /* JeffreyFeed */,
+				6D04B9F81AC4D0B300F41859 /* JeffreyFeedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D04B9DE1AC4D0B300F41859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D04B9F41AC4D0B300F41859 /* LaunchScreen.xib in Resources */,
+				6D1D97711ACCEE4300CBCAB7 /* pokemonloadiphone.png in Resources */,
+				6D1D97671ACCD0B700CBCAB7 /* pokeback.png in Resources */,
+				6D1D976F1ACCD9AC00CBCAB7 /* PokeDetailsViewController.xib in Resources */,
+				6D04B9F11AC4D0B300F41859 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D04B9F71AC4D0B300F41859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D04B9DC1AC4D0B300F41859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1D976A1ACCD58200CBCAB7 /* WebOfPokeDetailsVC.m in Sources */,
+				6D04B9E91AC4D0B300F41859 /* AppDelegate.m in Sources */,
+				6D04B9E61AC4D0B300F41859 /* main.m in Sources */,
+				6D9F6EB01AC4E8F200C4C50D /* PokeStore.m in Sources */,
+				6D9F6EB31AC4E98E00C4C50D /* Pokemon.m in Sources */,
+				6D1D976E1ACCD9AC00CBCAB7 /* PokeDetailsViewController.m in Sources */,
+				6D04BA0B1AC4D4CA00F41859 /* JasonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D04B9F51AC4D0B300F41859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D04BA001AC4D0B300F41859 /* JeffreyFeedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D04B9FB1AC4D0B300F41859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D04B9DF1AC4D0B300F41859 /* JeffreyFeed */;
+			targetProxy = 6D04B9FA1AC4D0B300F41859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D04B9F21AC4D0B300F41859 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D04B9F31AC4D0B300F41859 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D04BA011AC4D0B300F41859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D04BA021AC4D0B300F41859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D04BA041AC4D0B300F41859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JeffreyFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D04BA051AC4D0B300F41859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JeffreyFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D04BA071AC4D0B300F41859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JeffreyFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeffreyFeed.app/JeffreyFeed";
+			};
+			name = Debug;
+		};
+		6D04BA081AC4D0B300F41859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JeffreyFeedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeffreyFeed.app/JeffreyFeed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D04B9DB1AC4D0B300F41859 /* Build configuration list for PBXProject "JeffreyFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D04BA011AC4D0B300F41859 /* Debug */,
+				6D04BA021AC4D0B300F41859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D04BA031AC4D0B300F41859 /* Build configuration list for PBXNativeTarget "JeffreyFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D04BA041AC4D0B300F41859 /* Debug */,
+				6D04BA051AC4D0B300F41859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D04BA061AC4D0B300F41859 /* Build configuration list for PBXNativeTarget "JeffreyFeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D04BA071AC4D0B300F41859 /* Debug */,
+				6D04BA081AC4D0B300F41859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D04B9D81AC4D0B300F41859 /* Project object */;
+}
